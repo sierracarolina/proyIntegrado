@@ -1,8 +1,23 @@
 body{
   background-color: rgba(0, 0, 0, 1);
-
+  font-family: 'Cabin', serif;
 }
 
+body p {
+  font-size: 16px;
+}
+
+body button {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.logo {
+  margin-top: 2%;
+}
 
 #navbar-example2 {
   border-bottom: 3px solid #f56600;
@@ -54,22 +69,24 @@ a{
 
 .carrousel {
   width: 1000px;
-  height: 500px;
-  margin-left: 15%;
+  height: 450px;
+  position: relative;
+  margin-left: 13%;
+  border: 3px solid black;
 }
 
 #galeria-fotos {
-  background-image: url(galeria.png);
+  background-image: url(galeria.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  color: #f56600;
-  padding-bottom: 2%;
+  color: black;
+  padding-bottom: 20%;
   height: 100vh;
   }
 
   .galery{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     border-bottom: 3px solid #fff;
     margin-bottom: 1%;
   }
@@ -111,6 +128,10 @@ a{
   width: 150px;
 }
 
+.padding-ent{
+  padding-bottom: 18%;
+}
+
 #competencias {
   background-color: white;
   padding-top: 30px;
@@ -138,7 +159,6 @@ width: 150px;
 }
 
 .cuatro-competencias {
-  font-weight: bold;
   margin-bottom: 2%;
   margin-left: 4%;
   border: solid 1px rgb(0, 0, 0);
@@ -167,12 +187,12 @@ width: 150px;
 
 #div-hab{
   display: none;
-  font-size: 20px;
+
 }
 
 #div-voc {
   display: none;
-  font-size: 20px;
+
 }
 
 #button-uno {
@@ -186,7 +206,7 @@ width: 150px;
 }
 
 #desarrollo {
-  background-color: rgba(251, 146, 78, 1);
+  background-color: rgb(254, 201, 128);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -207,6 +227,14 @@ width: 150px;
   border-bottom: 3px solid #fff;
 }
 
+.card-diseño{
+  padding-bottom: 15%;
+}
+
+.card-desarrollo {
+  padding-bottom: 7%;
+}
+
 #text-diseño {
   margin-top: 2%;
   margin-left: 5%;
@@ -215,6 +243,26 @@ width: 150px;
 #text-diseño h4 {
   font-size: 30px;
   border-bottom: 3px solid #fff;
+}
+
+
+.button-desarrollo {
+  width: 150px;
+  height: 70px;
+    background-color: white;
+    color: black;
+    border: 2px solid #566573;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-top: 3%;
+    margin-left: 38%;
+    margin-bottom: 5%;
+}
+
+.button-desarrollo:hover {
+    background-color: #707B7C;
+    color: white;
 }
 
 .footer {
@@ -227,4 +275,74 @@ width: 150px;
     color: black;
     text-align: center;
     font-weight: bold;
+}
+
+.actividades {
+  margin-left: 3%;
+}
+
+#tips{
+  background-color: #F3F781;
+  padding-bottom: 100px;
+}
+
+.img-tips{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+
+#antes {
+  display: none;
+}
+#durante {
+  display: none;
+}
+
+#busqueda{
+  background-image: url(busquedatrabajo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+}
+
+#titulo-busqueda {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.texto-busqueda {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 5%;
+
+}
+
+#curriculum {
+  position: fixed;
+  display: none;
+  z-index: 1000;
+  text-align: center;
+  border: medium solid black;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 90%;
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 90%;
+}
+
+#sabana {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 999;
+  top: 0;
 }
