@@ -36,6 +36,7 @@
                         <a class="dropdown-item" href="#seccion-entrevistas">Entrevistados</a>
                         <a class="dropdown-item" href="#titulo-busqueda">Búsqueda de trabajo</a>
                         <a class="dropdown-item" href="#tips">Entrevistas laborales</a>
+                        <a class="dropdown-item" href="#Objetivos">Objetivos 2018</a>
                      </div>
                   </li>
                </div>
@@ -45,10 +46,20 @@
       <div id="cuerpo" class="container-fluid">
          <div class="jumbotron">
             <div id="abstract">
-               <p class="lead" style="text-align:left; font-weight: bold; font-size:22px; margin-left:5%;">Soy Carolina Sierra, tengo 24 años, vivo en Ciudad de la Costa en Médanos de Solymar con mi familia.
+              <div class="diseño-abstract-button">
+                <button type="button" onclick="" id="verIng"> Inglés </button>
+                <br>
+                <button type="button" onclick="" id="verEsp"> Español </button>
+              </div>
+               <p id= "uno" class="lead" style="text-align:left; font-weight: bold; font-size:22px; margin-left:5%;">Soy Carolina Sierra, tengo 24 años, vivo en Ciudad de la Costa en Médanos de Solymar con mi familia.
                  <br>Actualmente trabajo como recepcionista y me encuentro cursando la Licenciatura en Comunicación en la Facultad de Información y Comunicación - UdelaR. Mis dos orientaciones preferidas de la carrera son: Comunicación Organizacional y Publicidad. Me gusta mucho los trabajos con grupos de personas o equipos de trabajo para generar estrategias que fomenten una mejor comunicación a nivel interno de las organizaciones, fortaleciendo la Identidad de las mismas y generando una Cultura Organizacional sólida.<br>
                  Mi carrera me ha llevado a tener que estar aggiornada en las últimas tendencias a nivel tecnológico y mis objetivos a futuro en esta área, es seguir aprendiendo cada vez más y complementar la licenciatura también con el estudio de idiomas como Inglés y Portugués.
                </p>
+               <p id="dos" class="lead" style="text-align:left; font-weight: bold; font-size:22px; margin-left:5%;">I'm Carolina Sierra, I'm 24 years old, I live in Ciudad de la Costa in Médanos de Solymar with my family.
+I am currently working as a receptionist and I am studying a  degree in Communication at FIC - UdelaR. My two favorite career orientations are: Organizational Communication and Advertising. I really like the work with groups or teams work to generate strategies that encourage a better internal communication, strengthening the Identity of the organizations and generating a solid Organizational Culture.
+My career requires to be updated to the latest technological trends and my goals for the future in this area are learn more and more about it and also complement my career studying languages ​​such as English and Portuguese.</p>
+
+
             </div>
             <p class="lead">
                <a class="btn btn-primary btn-lg" href="#curriculum" role="button" id="show">Currículum Vitae</a>
@@ -272,7 +283,79 @@
             </div>
          </div>
       </div>
+      <div id="Objetivos" style="padding-top: 2%; height:900px;">
+         <div class="container">
+
+            <div class="row">
+               <div class="col-md-12" style="text-align:center; padding-top:5%; margin-bottom:10%;">
+
+                  <h1 id="objTitle">¡OBJETIVOS 2018!</h1>
+               </div>
+
+               <div class="col-md-6">
+                  <div class="row">
+                     <img src="academicos.jpg" class="objetivosAc">
+                   </div>
+                   <div class="row">
+<button type="button" class="btn btn-primary objAc" data-toggle="modal" data-target="#ObjAc">
+  OBJETIVOS ACADÉMICOS
+</button>
+
+<div class="modal fade" id="ObjAc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ObjAcTitle">Objetivos académicos 2018</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+      <div class="modal-body">
+        Para el año que viene mis objetivos a nivel académico son poder seguir avanzando en mi carrera y culminar los requerimientos mínimos para poder empezar a trabajar sobre el trabajo final de grado hacia fines de año. También seguir estudiando idiomas, en principio inglés y me gustaría realizar aunque sea un intensivo de verano de portugués, para tener una base. En cuanto a lo digital me gustaría hacer algun curso relacionado con publicidad digital: pautas, métricas y analítica, para seguir complementando mi carrera con algo que es muy práctico y valorado en el mecado laboral.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+                   </div>
+               </div>
+
+               <div class="col-md-6">
+                  <div class"row">
+                     <img src="laborales.png" class="objetivosLab" id="objLab">
+                     </div>
+                     <div class="row">
+  <button type="button" class="btn btn-primary objLab" data-toggle="modal" data-target="#ObjLab">
+    OBJETIVOS LABORALES
+  </button>
+
+  <div class="modal fade" id="ObjLab" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ObjLabTitle">Objetivos laborales 2018</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Dado que recién cambié de trabajo busco estabilizarme en el mismo y poder aprovechar las oportunidades que surjan dentro de la empresa.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
       <footer class="footer">
          <p>carolina.sierra@estudianteceibal.edu.uy - Jóvenes a Programar - Montevideo - Uruguay</p>
       </footer>
