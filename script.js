@@ -15,12 +15,16 @@ $(document).ready(function() {
       			$("#durante").fadeToggle();
       		});
 
+        $("#verIng").click(function(event) {
+      			$("#uno").fadeOut();
+            $("#dos").fadeIn();
+      		});
 
+          $("#verEsp").click(function(event) {
+        			$("#dos").fadeOut();
+              $("#uno").fadeIn();
+        		});
 
-
-      function mostrar() {
-        $(".durante").fadeToggle();
-      };
 
       $("#show").click(function() {
           $("#sabana").css({
